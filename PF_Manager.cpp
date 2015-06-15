@@ -42,6 +42,7 @@ const RC CreateFile(const char *fileName)
 		return PF_FILEERR;
 	return SUCCESS;
 }
+
 PF_FileHandle * getPF_FileHandle(void )
 {
 	PF_FileHandle *p=(PF_FileHandle *)malloc(sizeof( PF_FileHandle));

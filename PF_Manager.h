@@ -14,7 +14,7 @@
 #include<windows.h>
 #define PF_PAGE_SIZE ((1<<8)-4)
 #define PF_FILESUBHDR_SIZE (sizeof(PF_FileSubHeader))
-#define PF_BUFFER_SIZE 50//Ò³Ãæ»º³åÇøµÄ´óÐ¡
+#define PF_BUFFER_SIZE 50 //ç¼“å†²åŒºå¤§å°
 #define PF_PAGESIZE (1<<8)
 typedef unsigned int PageNum;
 
@@ -53,7 +53,6 @@ typedef struct{
 	Frame frame[PF_BUFFER_SIZE];
 	bool allocated[PF_BUFFER_SIZE];
 }BF_Manager;
-
 
 
 typedef struct{

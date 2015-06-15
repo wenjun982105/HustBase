@@ -426,5 +426,4 @@ void CEditArea::showSelResult(int row_num, int col_num)
 		{
 			dc.TextOut(8+j*180 , 4+i*25, pDoc->selResult[i][j]);
 		}
-
 }
